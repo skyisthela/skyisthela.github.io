@@ -19,9 +19,12 @@
 }
 
 .retard {
-    height: 50%;
-    width: 50%;
+    height: 40%;
+    width: 40%;
     margin-top: 5%;
+    padding-top: 0%;
+    margin-left: 0.4%;
+    margin-bottom: 1%;
 }
 
 .box2 {
@@ -59,8 +62,8 @@ a:link {
 
 .shi {
     position: relative;
-    right: 650px;
-    bottom: 150px;
+    right: 460px;
+    bottom: 120px;
 }
 
 body {
