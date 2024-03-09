@@ -1,0 +1,76 @@
+.box1 {
+    border-radius: 10px;
+    border: double 4px grey;
+    background-color: rgb(255, 202, 177);
+    padding-top: 1%;
+    padding-right: 7%;
+    padding-left: 1.5%;
+    margin-top: 27px;
+    margin-left: 70px;
+    width: 60%;
+}
+
+.hee1 {
+    font-family: monospace;
+}
+
+.pp {
+    font-family:inherit;
+}
+
+.retard {
+    height: 50%;
+    width: 50%;
+    margin-top: 5%;
+}
+
+.box2 {
+    text-align: right;
+    border-radius: 10px;
+    border: double 4px grey;
+    background-color:rgb(144, 197, 224);
+    padding-top: 1%;
+    padding-right: 1.5%;
+    padding-left: 7%;
+    margin-top: 20px;
+    margin-right: 70px;
+    width: 60%;
+}
+
+.hee2 {
+    font-size: small;
+}
+
+a:link {
+    color: purple;
+  }
+  
+  a:visited {
+    color: purple;
+  }
+  
+  a:hover {
+    color: purple;
+  }
+  
+  a:active {
+    color: purple;
+  }
+
+.shi {
+    position: relative;
+    right: 650px;
+    bottom: 150px;
+}
+
+body {
+    background-image:url(https://media.discordapp.net/attachments/911909702001123398/1215793005211160627/Konachan.com_-_373463_boots_cape_clouds_dress_flowers_frieren_green_eyes_leaves_long_hair_pointed_ears_sky_sousou_no_frieren_staff_twintails_white_hair_xiamianhaiya.jpg?ex=65fe0a78&is=65eb9578&hm=3d2cd803c5c347a79634390509ccac98c764ef63c4be415da3838817db9ff96b&=&width=1024&height=701);
+ 
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+  position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
