@@ -1,14 +1,32 @@
 .box1 {
     border-radius: 10px;
     border: double 4px grey;
-    background-color: rgb(255, 202, 177);
     padding-top: 1%;
     padding-right: 7%;
     padding-left: 1.5%;
     margin-top: 27px;
     margin-left: 70px;
     width: 60%;
+    position: relative;
 }
+
+.box1::before {
+  content: "";
+  background-color: rgb(255, 202, 177);
+  position:absolute;
+  inset: 0;
+  top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	opacity: 0.50;
+}
+
+.hea1, .pp, .hee2, .bocks1, .bockss, .pilgrim, .pp2 {
+  isolation: isolate;
+}
+
+
 
 .hee1 {
     font-family: monospace;
@@ -31,13 +49,25 @@
     text-align: right;
     border-radius: 10px;
     border: double 4px grey;
-    background-color:rgb(255, 228, 227);
+    position: relative;
     padding-top: 1%;
     padding-right: 1.5%;
     padding-left: 7%;
     margin-top: 20px;
     margin-right: 70px;
     width: 60%;
+}
+
+.box2::before {
+  content: "";
+  background-color:rgb(255, 228, 227);
+  position:absolute;
+  inset: 0;
+  top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	opacity: 0.50;
 }
 
 .hee2 {
@@ -84,12 +114,25 @@ body {
   text-align: center;
   padding-left: 5%;
   padding-right: 5%;
-  margin-left: 5%;
-  margin-right: 5%;
-  background-color: rgb(217, 219, 238);
+  margin-left: 7%;
+  margin-right: 7%;
+  position: relative;
   font-family: Haettenschweiler;
   margin-top: 2%;
   padding-top: 1%;
+  isolation: isolate;
+}
+
+.bocks1::before {
+  content: "";
+  background-color: rgb(217, 219, 238);
+  position:absolute;
+  inset: 0;
+  top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	opacity: 0.75;
 }
 
 ul {
@@ -103,4 +146,101 @@ ul {
   margin-left: auto;
   margin-right: auto;
   margin-top: 5%;
+}
+
+.what {
+  border: double 4px whitesmoke;
+  border-radius: 10px;
+  text-align: center;
+  margin-left: 47%;
+  margin-right: 47%;
+  padding-right: 10px;
+  padding-left: 10px;
+  position: relative;
+  font-size: small;
+  font-family: 'Verdana';
+}
+
+.what::before {
+  content: "";
+  background-color: black;
+  position:absolute;
+  inset: 0;
+  top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	opacity: 0.75;
+}
+
+.what1 {
+  isolation: isolate;
+}
+
+.lee {
+  font-size: smaller;
+}
+
+.second {
+  filter: brightness(70%);
+}
+
+.line {
+  max-width: 550px; 
+  margin: auto;
+}
+
+.pilgrim {
+  border-radius: 10px;
+  border: double 4px grey;
+  text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  position: relative;
+  font-family: Haettenschweiler;
+  margin-top: 2%;
+  padding-top: 1%;
+  isolation: isolate;
+  
+}
+
+.pilgrim::before {
+  content: "";
+  background-color: rgb(223, 255, 255);
+  position:absolute;
+  inset: 0;
+  top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	opacity: 0.50;
+}
+
+.ppl {
+  border-radius: 10px;
+  border: double 4px grey;
+  text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+  position: relative;
+  font-family: Haettenschweiler;
+  margin-top: 2%;
+  padding-top: 1%;
+  isolation: isolate;
+}
+
+.ppl::before {
+  content: "";
+  background-color: rgb(227, 182, 238);
+  position:absolute;
+  inset: 0;
+  top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	opacity: 0.75;
 }
