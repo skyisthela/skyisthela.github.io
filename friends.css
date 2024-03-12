@@ -1,0 +1,33 @@
+.ppl {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 10px;
+    border-radius: 10px;
+    border: double 4px grey;
+    margin-top: 10px;
+    margin-left: 5%;
+    margin-right: 40%;
+    position: relative;
+}
+
+.ppl::before {
+    content: "";
+    background-color: rgb(255, 202, 177);
+    position:absolute;
+    inset: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0.70;
+  }
+
+.tecks {
+    isolation: isolate;
+}
+
+body {
+    background-image: url(https://media.discordapp.net/attachments/911909702001123398/1216369946322407598/Konachan.com_-_365613_arknights_ball_beach_bikini_breasts_building_cleavage_clouds_horns_logo_male_nozaki_tsubata_pool_surtr_arknights_swimsuit_wink_wristwear.jpg?ex=660023ca&is=65edaeca&hm=3c088a8189dde6b44bfe4ee194fdfde1dc7c8c4f4d3bbe6e9683325eb3b12a71&=&width=1246&height=701);
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

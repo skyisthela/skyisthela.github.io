@@ -1,0 +1,106 @@
+.second {
+    filter: brightness(70%);
+  }
+
+.pilgrim {
+    border-radius: 10px;
+    border: double 4px grey;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    position: relative;
+    font-family: Haettenschweiler;
+    margin-top: 2%;
+    padding-top: 1%;
+    isolation: isolate;
+    
+  }
+  
+.pilgrim::before {
+    content: "";
+    background-color: rgb(223, 255, 255);
+    position:absolute;
+    inset: 0;
+    top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      opacity: 0.50;
+  }
+
+  .hea1, .pp, .hee2, .bocks1, .bockss, .pilgrim, .pp2, .cuc{
+    isolation: isolate;
+  }
+
+.ppl {
+    border-radius: 10px;
+    border: double 4px grey;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    position: relative;
+    font-family: Haettenschweiler;
+    margin-top: 2%;
+    padding-top: 1%;
+    isolation: isolate;
+  }
+  
+.ppl::before {
+    content: "";
+    background-color: rgb(227, 182, 238);
+    position:absolute;
+    inset: 0;
+    top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      opacity: 0.75;
+  }
+
+.eiki {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+  }
+
+.bocks1 {
+    border-radius: 10px;
+    border: double 4px grey;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-left: 7%;
+    margin-right: 7%;
+    position: relative;
+    font-family: Haettenschweiler;
+    margin-top: 2%;
+    padding-top: 1%;
+    isolation: isolate;
+  }
+  
+.bocks1::before {
+    content: "";
+    background-color: rgb(217, 219, 238);
+    position:absolute;
+    inset: 0;
+    top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      opacity: 0.75;
+  }
+
+body {
+    background-image:url(https://media.discordapp.net/attachments/911909702001123398/1215793005211160627/Konachan.com_-_373463_boots_cape_clouds_dress_flowers_frieren_green_eyes_leaves_long_hair_pointed_ears_sky_sousou_no_frieren_staff_twintails_white_hair_xiamianhaiya.jpg?ex=65fe0a78&is=65eb9578&hm=3d2cd803c5c347a79634390509ccac98c764ef63c4be415da3838817db9ff96b&=&width=1024&height=701), url(https://media.discordapp.net/attachments/911909702001123398/1215861217604800574/Konachan.com_-_369692_boots_dress_flowers_gray_eyes_gray_hair_isekai_joucho_kamitsubaki_studio_long_hair_pantyhose_reoen.jpg?ex=65fe49ff&is=65ebd4ff&hm=571b429bdecc19fa2409bc8c043ae42ba4ab522374768493a8a07e377f67c931&=&width=1246&height=701);
+    background-position: top, bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
