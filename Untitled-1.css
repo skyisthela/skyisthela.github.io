@@ -51,6 +51,7 @@
   height: 60%;
   width: 60%;
   margin-top:5%;
+  margin-left: 7%;
 }
 
 .nigger {
@@ -301,14 +302,29 @@ li {
   margin: 0, 0.5em, 0, 0;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 800px) {
+
+.box1 {
+  height: 300px;
+  overflow: auto;
+}
+
+.box1::before {
+  background-color: rgb(255, 202, 177);
+  height: 350%;
+}
+
 .bignigga {
     flex-direction: column;
-    width: 1000px;
+    width: 100%;
   }
 
+.nigger {
+  display: none;
+}
+
 .nigger1 {
-    width: 300px;
+    width: 100%;
   }
 
 .retard {
@@ -321,4 +337,35 @@ li {
 .fig {
   width: 50%;
 }
+
+.retard {
+  display: none;
+
 }
+
+figcaption {
+  display: none;
+}
+}
+
+.nav2 {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  border: 4px double white;
+  border-radius: 12px;
+  width: 20%;
+  margin: 0 auto;
+}
+
+
+.nav3 {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+ul {
+  list-style-type: none;
+}
+
