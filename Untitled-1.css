@@ -327,6 +327,10 @@ li {
 figcaption {
   display: none;
 }
+
+.stupid {
+  display: none;
+}
 }
 
 .nav2 {
