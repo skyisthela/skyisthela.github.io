@@ -11,15 +11,18 @@
 }
 
 .box1 {
-    border-radius: 10px;
-    border: double 4px grey;
-    padding-top: 1%;
-    padding-right: 7%;
-    padding-left: 1.5%;
-    margin-top: 27px;
-    margin-left: 70px;
-    width: 60%;
-    position: relative;
+  border-radius: 10px;
+  border: double 4px grey;
+  padding-top: 1%;
+  padding-right: 1%;
+  padding-left: 1%;
+  margin-top: 27px;
+  margin-left: 70px;
+  width: 60%;
+  position: relative;
+  z-index: 1;
+  padding-bottom: -10px;
+  max-height: 440px;
 }
 
 .box1::before {
@@ -32,66 +35,40 @@
 	bottom: 0;
 	left: 0;
 	opacity: 0.50;
+  border-radius: 10px;
 }
 
 .hea1, .pp, .hee2, .bocks1, .bockss, .pilgrim, .pp2, .cuc, .text{
   isolation: isolate;
 }
 
+.hea1 {
+  font-family:monospace;
+}
 
 .hee1 {
     font-family: monospace;
 }
 
 .pp {
-    font-family:inherit;
+    font-family:monospace;
 }
 
-.retard {
-  height: 60%;
-  width: 60%;
-  margin-top:5%;
-  margin-left: 7%;
-}
-
-.nigger {
-  flex:1;
-  border-radius: 10px;
-  border: double 4px grey;
-  margin-top: 5px;
-  margin-left: 50px;
-  position: relative;
-  width: 30%;
-  font-family: serif;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-
-.nigger::before {
-  content: "";
-  background-color: hsl(0, 91%, 91%);
-  position:absolute;
-  inset: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  opacity: 0.50;
+#retard {
+  float: right;
+  height: 300px;
+  margin-right: 5%;
+  margin-top: 4%;
 }
 
 .nigger1 {
-  flex:1;
   border-radius: 10px;
   border: double 4px grey;
   position: relative;
-  padding-top: 1%;
-  padding-right: 1.5%;
-  padding-left: 1%;
-  margin-top: 8px;
-  margin-right: 70px;
- 
+  width: 40%;
+  padding: 10px 10px;
+  margin-left: 57%;
+  text-align: right;
 }
 
 .nigger1::before {
@@ -105,6 +82,17 @@
   left: 0;
   opacity: 0.50;
 }
+
+.yuki {
+  position: absolute;
+  margin-left: 10%;
+  margin-bottom: 100px;
+}
+.stupid {
+  position: absolute;
+  margin-left: 27%;
+}
+
 .hee2 {
     font-size: small;
 }
@@ -327,13 +315,6 @@ li {
     width: 100%;
   }
 
-.retard {
-    height: 20%;
-    width: 20%;
-    justify-content: center;
-    margin: 0 auto;
-  }
-
 .fig {
   width: 50%;
 }
@@ -369,3 +350,32 @@ ul {
   list-style-type: none;
 }
 
+.hidden {
+  opacity: 0;
+  position: relative;
+  font-family: verdana;
+  z-index: -1;
+  overflow: hidden;
+bottom: 245px;
+  align-items: center;
+  text-align: center;
+
+}
+#mark {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  justify-content: center;
+  font-weight: bold;
+}
+
+#ree:hover ~ .box1 > .visible {
+  opacity: 0;
+  z-index: -1;
+}
+
+#ree:hover ~ .box1 > .hidden {
+  opacity: 1;
+  z-index: 1;
+  transition: ease 700ms 150ms;
+}
