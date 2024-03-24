@@ -38,7 +38,10 @@
   border-radius: 10px;
 }
 
-.hea1, .pp, .hee2, .bocks1, .bockss, .pilgrim, .pp2, .cuc, .text{
+.box1 a {
+  color: purple;
+}
+.hea1, .pp, .hee2, .bocks1, .bockss, .pilgrim, .pp2, .cuc, .text, .nav{
   isolation: isolate;
 }
 
@@ -83,6 +86,9 @@
   opacity: 0.50;
 }
 
+.nigger1 a {
+  color: purple;
+}
 .yuki {
   position: absolute;
   margin-left: 10%;
@@ -101,21 +107,6 @@
   text-align: right;
 }
 
-a:link {
-    color: purple;
-  }
-  
-  a:visited {
-    color: purple;
-  }
-  
-  a:hover {
-    color: purple;
-  }
-  
-  a:active {
-    color: purple;
-  }
 
 .shi {
    position: relative;
@@ -162,12 +153,6 @@ body {
 	opacity: 0.75;
 }
 
-ul {
-  list-style-position: inside;
-  padding: 1.4rem;
-  
-}
-
 .eiki {
   display: block;
   margin-left: auto;
@@ -175,7 +160,7 @@ ul {
   margin-top: 5%;
 }
 
-.what1, .what2, .navt {
+.what1, .what2 {
   isolation: isolate;
 }
 
@@ -244,57 +229,26 @@ th {
   background-color: black;
 }
 
-.nav {
-  border-radius: 10px;
-  border: double 4px white;
-  text-align: center;
-  padding: 0%;
-  margin: auto;
-  position: relative;
-  font-family: Haettenschweiler;
-  isolation: isolate;
-  height:auto;
-  width: 350px;
-  float:none;
-  align-items: center;
-  justify-content: center;
-}
 
-.nav::before {
-  content: "";
-  background-color: black;
-  border-radius: 10PX;
-  position:absolute;
-  inset: 0;
-  top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	opacity: 0.75;
-}
 
-.navt {
-  display: inline;
-  margin-bottom: 10%;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 0%;
-}
 
 a {
   text-decoration: none;
+  color: #B2B2F9;;
 }
 
-li {
-  height: 0px;
-  margin: 0, 0.5em, 0, 0;
-}
 
 @media (max-width: 800px) {
 
+#ree {
+  display: none;
+}
+
 .box1 {
-  height: 300px;
+  height: 270px;
   overflow: auto;
+  width: 300px;
+  margin: 0 auto;
 }
 
 .box1::before {
@@ -312,7 +266,9 @@ li {
 }
 
 .nigger1 {
-    width: 100%;
+    width: 80%;
+    margin:0 auto;
+    text-align: center;
   }
 
 .fig {
@@ -333,38 +289,22 @@ figcaption {
 }
 }
 
-.nav2 {
-  display: flex;
-  justify-content: center;
-  gap: 10px;
-  border: 4px double white;
-  border-radius: 12px;
-  width: 20%;
-  margin: 0 auto;
-}
-
-
-.nav3 {
-  display: flex;
-  justify-content: center;
-  gap: 10px;
-}
-
-ul {
-  list-style-type: none;
-}
-
 .hidden {
   opacity: 0;
-  position: relative;
+  position: absolute;
   font-family: verdana;
   z-index: -1;
   overflow: hidden;
-bottom: 245px;
-  align-items: center;
+  bottom: 190px;
+  left: 250px;
   text-align: center;
-
 }
+
+.visible {
+  opacity: 1;
+  z-index: 1;
+}
+
 #mark {
   display: flex;
   align-items: center;
@@ -382,4 +322,27 @@ bottom: 245px;
   opacity: 1;
   z-index: 1;
   transition: ease 700ms 150ms;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+  border: 4px double;
+  border-radius: 10px;
+  width: 13%;
+  margin: 0 auto;
+  position: relative;
+  background-color: rgba(0,0,0,0.8);
+  border-color: white;
+  color: #c2c2fa;
+}
+
+.navbar::before {
+  content: "";
+  position:absolute;
+}
+
+.nav {
+  gap:23px;
 }
