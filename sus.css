@@ -3,14 +3,14 @@
   }
 
 .h {
-    text-align: center;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    border: double 4px;
-    border-radius: 15px;
-    margin-left: 37%;
-    margin-right: 37%;
-    position: relative;
-    margin-top: 5px;
+  text-align: center;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border: double 4px;
+  border-radius: 15px;
+  margin-left: 37%;
+  margin-right: 37%;
+  position: relative;
+  margin-top: 5px;
 }
 
 .h::before {
@@ -58,4 +58,49 @@ body {
     content: "";
     width: 350px;
   }
+  a {
+    text-decoration: none;
+    color: #B2B2F9;;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: #FF6767;
+  }
+  
+  .navbar {
+    padding: 1px 2px;
+    border: 4px double;
+    border-radius: 8px;
+    background-color: rgba(19, 19, 22, 0.7);
+    border-color: white;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar li {
+    display: inline-block;
+    margin: 3px 13px;
+  }
+  
+  .d-flex {
+    display: flex;
+  }
+  .justify-content-center {
+    justify-content: center;
+  }
 
+@media (max-width:1000px) {
+  .h {
+  margin: 0 auto;
+  width: 66%;
+}
+}
