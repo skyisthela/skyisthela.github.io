@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .row:after {
   content: "";
   display: table;
@@ -94,6 +99,7 @@
   margin-left: 10%;
   margin-bottom: 100px;
 }
+
 .stupid {
   position: absolute;
   margin-left: 27%;
@@ -237,8 +243,26 @@ a {
   color: #B2B2F9;;
 }
 
+a:hover {
+  text-decoration: underline;
+}
 
-@media (max-width: 800px) {
+a:active {
+  color: #FF6767;
+}
+
+@media (max-width: 500px) {
+
+.navbar {
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  width: fit-content;
+}
+
+.navbar ul {
+  text-align: center;
+}
 
 #ree {
   display: none;
@@ -253,7 +277,7 @@ a {
 
 .box1::before {
   background-color: rgb(255, 202, 177);
-  height: 350%;
+  height: 820px;
 }
 
 .bignigga {
@@ -285,6 +309,10 @@ figcaption {
 }
 
 .stupid {
+  display: none;
+}
+
+.hidden {
   display: none;
 }
 }
@@ -325,24 +353,35 @@ figcaption {
 }
 
 .navbar {
-  display: flex;
-  justify-content: center;
-  gap: 70px;
+  padding: 1px 2px;
   border: 4px double;
-  border-radius: 10px;
-  width: 13%;
-  margin: 0 auto;
-  position: relative;
-  background-color: rgba(0,0,0,0.8);
+  border-radius: 8px;
+  background-color: rgba(19, 19, 22, 0.7);
   border-color: white;
-  color: #c2c2fa;
 }
 
-.navbar::before {
-  content: "";
-  position:absolute;
+.navbar ul {
+  list-style: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
 }
 
-.nav {
-  gap:23px;
+.navbar li {
+  display: inline-block;
+  margin: 3px 13px;
 }
+
+.d-flex {
+  display: flex;
+}
+.justify-content-center {
+  justify-content: center;
+}
+
+.ex {
+  margin: 0 auto;
+  text-align: center;
+  opacity: 0.20;
+}
+
