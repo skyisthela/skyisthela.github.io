@@ -121,7 +121,7 @@
 }
 
 body {
-    background-image:url(https://media.discordapp.net/attachments/911909702001123398/1215793005211160627/Konachan.com_-_373463_boots_cape_clouds_dress_flowers_frieren_green_eyes_leaves_long_hair_pointed_ears_sky_sousou_no_frieren_staff_twintails_white_hair_xiamianhaiya.jpg?ex=65fe0a78&is=65eb9578&hm=3d2cd803c5c347a79634390509ccac98c764ef63c4be415da3838817db9ff96b&=&width=1024&height=701), url(https://media.discordapp.net/attachments/911909702001123398/1215861217604800574/Konachan.com_-_369692_boots_dress_flowers_gray_eyes_gray_hair_isekai_joucho_kamitsubaki_studio_long_hair_pantyhose_reoen.jpg?ex=65fe49ff&is=65ebd4ff&hm=571b429bdecc19fa2409bc8c043ae42ba4ab522374768493a8a07e377f67c931&=&width=1246&height=701);
+    background-image:url(https://i.ibb.co/s1Kr4KF/Konachan-com-373463-boots-cape-clouds-dress-flowers-frieren-green-eyes-leaves-long-hair-pointed-ears.jpg);
     background-position: top, bottom;
     background-repeat: no-repeat;
     background-size: cover;
@@ -273,7 +273,7 @@ a:active {
   overflow: auto;
   width: 300px;
   margin: 0 auto;
-  margin-top:5px;
+  margin-top:10px;
 }
 
 .box1::before {
