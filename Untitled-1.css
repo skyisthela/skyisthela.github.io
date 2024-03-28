@@ -273,7 +273,8 @@ a:active {
   overflow: auto;
   width: 300px;
   margin: 0 auto;
-  margin-top:10px;
+  margin-top:20px;
+  margin-bottom: 8px;
 }
 
 .box1::before {
