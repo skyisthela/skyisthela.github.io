@@ -103,4 +103,7 @@ body {
   margin: 0 auto;
   width: 66%;
 }
+.navbar {
+    margin: 10px 0px;
+}
 }
