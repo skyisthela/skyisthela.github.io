@@ -99,7 +99,7 @@ a {
   }
 
 body {
-  background-image:url(https://i.ibb.co/pWywQpg/Konachan-com-374467-animal-ass-beach-bird-breasts-chain-dress-gloves-horns-long-hair-no-bra-nopan-or.jpg);
+  background-image:url(https://i.ibb.co/rbs03Jg/Konachan-com-374467-animal-ass-beach-bird-breasts-chain-dress-gloves-horns-long-hair-no-bra-nopan-or.jpg);
   background-position: top, bottom;
   background-repeat: no-repeat;
   background-size: cover;
@@ -152,7 +152,8 @@ a:active {
 
 .pilgrim {
   width: 250px;
-  margin: 0 auto;
+  margin: 0 auto;   
+margin-top: 25px;
 }
 
 .bocks1 {
@@ -160,9 +161,15 @@ a:active {
   height: 300px;
   width: 300px;
   margin: 0 auto;
+    margin-top: 23px;
 }
 
 .bocks1::before {
   height: 450px;
+}
+
+.navbar {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 }
