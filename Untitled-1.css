@@ -251,7 +251,7 @@ a:active {
   color: #FF6767;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 1480px) {
 
 .navbar {
   display: flex;
