@@ -1,66 +1,27 @@
+@font-face {
+  font-family:Meloso;
+  src: url(fonts/Rachel\ Kick\ -\ Meloso\ Regular.ttf);
+}
 
+@font-face {
+  font-family: melosob;
+  src: url(fonts/Rachel\ Kick\ -\ Meloso\ Extra\ Bold.otf);
+}
 
-.pilgrim {
-    border-radius: 10px;
-    border: double 4px grey;
-    text-align: center;
-    padding-left: 5%;
-    padding-right: 5%;
-    margin-left: 26%;
-    margin-right: 26%;
-    position: relative;
-    font-family: Haettenschweiler;
-    margin-top: 2%;
-    padding-top: 1%;
-    isolation: isolate;
-    
-  }
+::-webkit-scrollbar {
+  color: #000000;
+}
 
+::-webkit-scrollbar-button {
+  color: aqua;
+}
 a {
   text-decoration: none;
   color: #B2B2F9;;
 }
-.pilgrim::before {
-    content: "";
-    background-color: rgb(223, 255, 255);
-    position:absolute;
-    inset: 0;
-    top: 0;
-      right: 0;
-      bottom: 0;
-      left: 0;
-      opacity: 0.50;
-  }
 
   .hea1, .pp, .hee2, .bocks1, .bockss, .pilgrim, .pp2, .cuc{
     isolation: isolate;
-  }
-
-.ppl {
-    border-radius: 10px;
-    border: double 4px grey;
-    text-align: center;
-    padding-left: 5%;
-    padding-right: 5%;
-    margin-left: 20%;
-    margin-right: 20%;
-    position: relative;
-    font-family: Haettenschweiler;
-    margin-top: 2%;
-    padding-top: 1%;
-    isolation: isolate;
-  }
-  
-.ppl::before {
-    content: "";
-    background-color: rgb(227, 182, 238);
-    position:absolute;
-    inset: 0;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    opacity: 0.75;
   }
 
 .eiki {
@@ -68,46 +29,23 @@ a {
     margin-left: auto;
     margin-right: auto;
     margin-top: 5%;
-    padding-bottom:10px;
-  }
-
-.bocks1 {
-  border-radius: 10px;
-  border: double 4px grey;
-  text-align: center;
-  padding-left: 2%;
-  padding-right: 2%;
-  margin-left: 23%;
-  margin-right: 23%;
-  position: relative;
-  font-family: Haettenschweiler;
-  margin-top: 2%;
-  padding-top: 1%;
-  isolation: isolate;
-  }
-  
-.bocks1::before {
-  content: "";
-  background-color: rgb(217, 219, 238);
-  position:absolute;
-  inset: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  opacity: 0.75;
   }
 
 body {
   background-image:url(https://i.ibb.co/0cLrCBk/1708440375143990.jpg);
+  padding: 0;
+  margin:0;
   background-position: top, bottom;
   background-repeat: no-repeat;
   background-size: cover;
   Left: 0;
   top: 0;
-  width: 100%;
+  
 }
 
+section {
+  font-family: meloso;
+}
 a {
   text-decoration: none;
   color: #B2B2F9;;
@@ -121,13 +59,153 @@ a:active {
   color: #FF6767;
 }
 
+.top {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 30px;
+
+}
+
+#nick {
+  border: 4px double;
+  border-radius: 10px;
+  padding: 10px 10px;
+  width: 63%;
+  background-color: rgba(0, 0, 0,0.7);
+  color: gold;
+  border-color: #B2B2F9;
+}
+
+.huge {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-top: 40px;
+  gap: 40PX;
+}
+
+.leleft {
+  display: flex;
+  flex-direction: column;
+}
+
+.ni {
+  border: 4px double ;
+  border-radius: 10px;
+  padding: 5px 5px;
+  width: 200px;
+  text-align: center;
+  background-color: rgba(0, 0, 0,0.7);
+  color: #B2B2F9;
+  border-color: white;
+}
+
+.mid {
+  border: 4px double ;
+  border-radius: 10px;
+  padding: 8px 8px;
+  width: 200px;
+  text-align: center;
+  background-color: rgba(0, 0, 0,0.7);
+  color: #B2B2F9;
+  border-color: white;
+  margin-top: 20px;
+}
+
+#lol {
+  width: 300px;
+}
+
+.leright {
+  display: flex;
+  flex-direction: column;
+  width: 850px;
+}
+
+.purpose {
+  border: 4px double;
+  border-radius: 10px;
+  padding: 14px 14px;
+  background-color: rgba(0, 0, 0,0.7);
+  color: #B2B2F9;
+  border-color: white;
+  width: 850px;
+}
+
+#lulee {
+  width: 300px;
+  float: right;
+  margin-right: 70px;
+}
+
+.over {
+  display: inline-flex;
+  gap: 70px;
+}
+
+.rank {
+  display: flex;
+  justify-content: center;
+}
+#lule {
+  width: 300px;
+  float: left;
+  margin-left: 70px;
+}
+
+#sus {
+  font-size:6px;
+}
+
+
+.haha {
+  border: 4px double ;
+  border-radius: 10px;
+  padding: 14px 14px;
+  background-color: rgba(0, 0, 0,0.7);
+  color: #B2B2F9;
+  border-color: white;
+  margin-top: 20px;
+  width: 850px;
+}
+#lap {
+  float: left;
+  padding: 10px 10px;
+}
+
+#ara {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  font-size: 10px;
+}
+
+#later {
+  padding-top: 10px;
+}
+
+#anime {
+  float: right;
+  padding: 10px 10px;
+}
+.test {
+  display: flex;
+  flex-direction: column;
+  
+}
+
 .navbar {
   padding: 1px 2px;
   border: 4px double;
   border-radius: 8px;
   background-color: rgba(19, 19, 22, 0.7);
   border-color: white;
+  font-size: 16px;
+  margin-bottom:20px;
 }
+
 
 .navbar ul {
   list-style: none;
@@ -144,16 +222,25 @@ a:active {
 .d-flex {
   display: flex;
 }
+
 .justify-content-center {
   justify-content: center;
 }
 
-@media (max-width:1000px) {
+.show {
+  opacity: 0;
+}
 
+@media (max-width:1110px) {
+body {
+  background-image: url(https://i.ibb.co/GvXzD7T/1704405940511327.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .pilgrim {
   width: 250px;
-  margin: 0 auto;   
-margin-top: 25px;
+  margin: 0 auto;
+  margin-top: 25px;
 }
 
 .bocks1 {
@@ -161,7 +248,7 @@ margin-top: 25px;
   height: 300px;
   width: 300px;
   margin: 0 auto;
-    margin-top: 23px;
+  margin-top: 23px;
 }
 
 .bocks1::before {
@@ -172,4 +259,15 @@ margin-top: 25px;
   margin-top: 10px;
   margin-bottom: 10px;
 }
+.sex {
+  display: none;
 }
+
+.show {
+  opacity: 1;
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: red; 
+}
+}
+
