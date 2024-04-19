@@ -232,11 +232,6 @@ a:active {
 }
 
 @media (max-width:1110px) {
-body {
-  background-image: url(https://i.ibb.co/GvXzD7T/1704405940511327.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 .pilgrim {
   width: 250px;
   margin: 0 auto;
