@@ -46,6 +46,7 @@ body {
 section {
   font-family: meloso;
 }
+
 a {
   text-decoration: none;
   color: #B2B2F9;;
@@ -64,7 +65,6 @@ a:active {
   justify-content: center;
   text-align: center;
   margin-top: 30px;
-
 }
 
 #nick {
@@ -75,6 +75,24 @@ a:active {
   background-color: rgba(0, 0, 0,0.7);
   color: gold;
   border-color: #B2B2F9;
+}
+
+.warn {
+  background-color: red;
+  color: white;
+  display: none;
+}
+
+.close {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+
 }
 
 .huge {
@@ -148,6 +166,7 @@ a:active {
   display: flex;
   justify-content: center;
 }
+
 #lule {
   width: 300px;
   float: left;
@@ -158,7 +177,10 @@ a:active {
   font-size:6px;
 }
 
+#line {
+  clear: left;
 
+}
 .haha {
   border: 4px double ;
   border-radius: 10px;
@@ -193,7 +215,6 @@ a:active {
 .test {
   display: flex;
   flex-direction: column;
-  
 }
 
 .navbar {
@@ -232,31 +253,62 @@ a:active {
 }
 
 @media (max-width:1110px) {
-.pilgrim {
-  width: 250px;
-  margin: 0 auto;
-  margin-top: 25px;
+
+body {
+  text-align: center;
 }
 
-.bocks1 {
-  overflow: auto;
-  height: 300px;
+.leright {
+  display: flex;
+  flex-direction: column;
+  width: 400;
+}
+  
+.purpose {
+  border: 4px double;
+  border-radius: 10px;
+  padding: 14px 14px;
+  background-color: rgba(0, 0, 0,0.7);
+  color: #B2B2F9;
+  border-color: white;
+  width: 400;
+}
+  
+#lulee {
   width: 300px;
-  margin: 0 auto;
-  margin-top: 23px;
+  float: right;
+  margin-right: 70px;
 }
 
-.bocks1::before {
-  height: 450px;
+.warn {
+  display: block;
 }
-
-.navbar {
-  margin-top: 10px;
-  margin-bottom: 10px;
+.haha {
+  width: 400px;
 }
 
 .leleft {
-  display:none;
+  display: none;
+}
+
+.ach {
+  display: none;
+}
+
+#lule {
+  display: block;
+}
+
+#lap {
+  display: block;
+  float: none;
+  margin: 0 auto;
+}
+
+#anime {
+  display: block;
+  float: none;
+  margin: 0 auto;
 }
 }
 
