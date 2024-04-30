@@ -32,11 +32,34 @@
   animation-name: boot;
   animation-duration: 2s;
   position: relative;
-}
-
-.box2 {
   background-color: rgba(255, 202, 177,0.3);
   padding: 10px;
+  z-index: 1;
+  height: 460px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+#hidden {
+  z-index: -1;
+  opacity: 0;
+  text-align: center;
+  align-items: center;
+  position: relative;
+  bottom: 260px;
+}
+
+#ree:hover ~  .box1 > .visible {
+  opacity: 0;
+  z-index: -1;
+  transition: ease-out 700ms 200ms;
+  transition-duration: 500ms;
+}
+
+#ree:hover ~ .box1 > #hidden {
+  opacity: 1;
+  z-index: 0;
+  transition: ease-in-out 700ms 200ms;
+  transition-duration: 500ms;
 }
 
 .box1 a {
@@ -185,11 +208,13 @@ a:active {
 }
 
 #ree {
-  display: none;
+  margin: 0 auto;
+  width: 100px;
+  float:none;
 }
 
 .box1 {
-  height: 270px;
+  height: 300px;
   overflow: auto;
   width: 300px;
   margin: 0 auto;
@@ -197,34 +222,17 @@ a:active {
   margin-bottom: 5px;
 }
 
-.box1::before {
-  background-color: rgb(255, 202, 177);
-  height: 820px;
-}
-
 .box1::-webkit-scrollbar{ 
-  width: 2px;
+  width: 5px;
 }
 
 .box1::-webkit-scrollbar-thumb {
-  background-color: purple;
-}
-
-.box1::-webkit-scrollbar-track {
-  background-color:rgb(255, 202, 177);
-}
-.bignigga {
-  flex-direction: column;
-  width: 100%;
-}
-
-.nigger {
-  display: none;
+  background-color: black;
 }
 
 .nigger1 {
   width: 80%;
-  margin:0 auto;
+  margin: 0 auto;
   text-align: center;
 }
 
@@ -232,8 +240,10 @@ a:active {
   width: 50%;
 }
 
-.retard {
-  display: none;
+#retard {
+  float: none;
+  width: 200px;
+  height: auto;
 }
 
 figcaption {
@@ -243,23 +253,8 @@ figcaption {
 .stupid {
   display: none;
 }
-
-.hidden {
-  display: none;
-}
 }
 
-
-/*#ree:hover ~ .box1 > .visible {
-  opacity: 0;
-  z-index: -1;
-}
-
-#ree:hover ~ .box1 > .hidden {
-  opacity: 1;
-  z-index: 1;
-  transition: ease 700ms 150ms;
-}*/
 
 .navbar {
   padding: 1px 2px;
