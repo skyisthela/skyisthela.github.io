@@ -9,41 +9,20 @@
 }
 
 @keyframes boot {
-  from { bottom: 200px;
-
-  }
-  to {
-    bottom: 0px;
-  }
+  from { transform: translateY(-200px);}
 }
 
 @keyframes boot1 {
-  from { right: 200px;
-
-  }
-  to {
-    right: 0px;
-  }
+  from { transform: translateX(-200px);}
 }
 
 @keyframes boot2 {
-  from { left: 200px;
-
-  }
-  to {
-    left: 0px;
-  }
+  from { transform: translateY(200px);}
 }
 
 @keyframes boot3 {
-  from { top: 200px;
-
-  }
-  to {
-    top: 0px;
-  }
+  from { transform: translateY(200px);}
 }
-
 ::-webkit-scrollbar {
   color: #000000;
 }
@@ -274,6 +253,8 @@ a:active {
   font-size: 16px;
   margin-bottom:20px;
   margin-top: 20px ;
+  animation-name: boot3;
+  animation-duration: 2s;
 }
 
 
@@ -310,12 +291,12 @@ a:active {
   background-color: rgba(0, 0, 0,0.7);
   color: #B2B2F9;
   border-color: white;
-  width: 350px;
+  width: 700px;
   margin: 0 auto;
 }
   
 #lulee {
-  width: 300px;
+  width: 700px;
   float: right;
   margin-right: 70px;
 }
@@ -323,8 +304,9 @@ a:active {
 .warn {
   display: block;
 }
+
 .haha {
-  width: 350px;
+  width: 700px;
   margin: auto;
   margin-top: 20px;
 }
@@ -359,9 +341,70 @@ a:active {
 
 }
 
+@media (max-width:700px) {
+  
+  .purpose {
+    border: 4px double;
+    border-radius: 10px;
+    padding: 14px 14px;
+    background-color: rgba(0, 0, 0,0.7);
+    color: #B2B2F9;
+    border-color: white;
+    width: 350px;
+    margin: 0 auto;
+  }
+    
+  #lulee {
+    width: 350px;
+    float: right;
+    margin-right: 70px;
+  }
+  
+  .warn {
+    display: block;
+  }
+  
+  .haha {
+    width: 350px;
+    margin: auto;
+    margin-top: 20px;
+  }
+  
+  .leleft {
+    display: none;
+  }
+  
+  .ach {
+    display: none;
+  }
+  
+  #lule {
+    display: block;
+  }
+  
+  #lap {
+    display: block;
+    float: none;
+    margin: 0 auto;
+  }
+  
+  #anime {
+    display: block;
+    float: none;
+    margin: 0 auto;
+  }
+  
+  .warn {
+    margin: 0 auto;
+  }
+  
+  }
+
+  
 .ex {
   margin: 0 auto;
   text-align: center;
   opacity: 0.50;
   padding-top: 10px;
+  margin-bottom: 20px;
 }
