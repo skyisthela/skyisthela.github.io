@@ -1,12 +1,19 @@
 @keyframes boot {
-  from { bottom: 200px;
+  from { transform: translateY(-200px);}
+}
 
-  }
-  to {
-    bottom: 0px;
+@keyframes boot1 {
+  from {
+    transform: translateY(200px);
   }
 }
 
+::-webkit-scrollbar {
+  width: 1px;
+  scrollbar-width: 10px;
+  color: antiquewhite;
+  background-color: grey;
+}
 * {
   margin: 0;
   padding: 0;
@@ -17,11 +24,7 @@
   display: table;
   clear: both;
 }
-.bignigga {
-  display:flex;
-  gap: 16px;
-  padding: 30px 20px;
-}
+
 
 .box1 {
   margin: 30px 60px;
@@ -76,11 +79,11 @@
 }
 
 .hee1 {
-    font-family: monospace;
+  font-family: monospace;
 }
 
 .pp {
-    font-family:monospace;
+  font-family:monospace;
 }
 
 #retard {
@@ -128,6 +131,8 @@
   animation-duration: 2s;
   margin-left: 27%;
   position: relative;
+  width: 400px;
+  height: 260px;
 }
 
 .hee2 {
@@ -194,67 +199,94 @@ a:active {
   color: #FF6767;
 }
 
+.box2 {
+  display: none;
+}
+
 @media (max-width: 1480px) {
-
-.navbar {
-  display: flex;
-  justify-content:center;
-  align-items:center;
-  width: fit-content;
-}
-
-.navbar ul {
-  text-align: center;
-}
-
-#ree {
-  margin: 0 auto;
-  width: 100px;
-  float:none;
-}
-
 .box1 {
-  height: 300px;
-  overflow: auto;
-  width: 300px;
+  width: 500px;
   margin: 0 auto;
-  margin-top: 15px;
-  margin-bottom: 5px;
-}
-
-.box1::-webkit-scrollbar{ 
-  width: 5px;
-}
-
-.box1::-webkit-scrollbar-thumb {
-  background-color: black;
 }
 
 .nigger1 {
-  width: 80%;
+  width: 600px;
   margin: 0 auto;
+  margin-top: 50px;
   text-align: center;
+  padding: 0;
 }
 
-.fig {
-  width: 50%;
+.stupid {
+  margin: 0 auto;
+  float: none;
+  display: block;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  
 }
 
 #retard {
+  margin: 0 auto;
   float: none;
-  width: 200px;
-  height: auto;
+  display: block;
+  margin-top: 20px;
 }
 
 figcaption {
   display: none;
 }
 
+hr {
+  display: none;
+}
+
+
+}
+
+@media (max-width: 500px) {
+.box1 {
+  width: 350px;
+  margin: 0 auto;
+  overflow: auto;
+  margin-top: 15px;
+}
+  
+.nigger1 {
+  width: 300PX;
+  margin: 0 auto;
+  margin-top: 50px;
+  text-align: center;
+  padding: 0;
+  margin-bottom: 20px;
+}
+  
 .stupid {
+  margin: 0 auto;
+  float: none;
+  display: block;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  width: 300px;
+}
+  
+#retard {
+  margin: 0 auto;
+  float: none;
+  display: block;
+  margin-top: 20px;
+  width: 30%;
+  height: 40%;
+}
+  
+figcaption {
+  display: none;
+}
+  
+hr {
   display: none;
 }
 }
-
 
 .navbar {
   padding: 1px 2px;
@@ -262,6 +294,8 @@ figcaption {
   border-radius: 8px;
   background-color: rgba(19, 19, 22, 0.7);
   border-color: white;
+  animation-name: boot1;
+  animation-duration: 2s;
 }
 
 .navbar ul {
