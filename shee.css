@@ -30,15 +30,57 @@
 ::-webkit-scrollbar-button {
   color: aqua;
 }
-a {
+.sk {
   text-decoration: none;
-  color: #B2B2F9;;
+  color: #B2B2F9;
 }
 
-  .hea1, .pp, .hee2, .bocks1, .bockss, .pilgrim, .pp2, .cuc{
-    isolation: isolate;
-  }
+.sk:hover {
+  text-decoration: underline;
+}
 
+.sk:active {
+  color: #FF6767;
+}
+
+.sl {
+  text-decoration: none;
+  color: bisque;
+}
+
+.sl:hover {
+  text-decoration: underline;
+}
+
+.sl:active {
+  color: #676046;
+}
+
+.sl1 {
+  text-decoration: none;
+  color: rgb(235, 196, 255);
+}
+
+.sl1:hover {
+  text-decoration: underline;
+}
+
+.sl1:active {
+  color: #7b5185;
+}
+
+.sl2 {
+  text-decoration: none;
+  color: rgb(199, 255, 197);
+}
+
+.sl2:hover {
+  text-decoration: underline;
+}
+
+.sl2:active {
+  color: #4c7f5a;
+}
 .eiki {
     display: block;
     margin-left: auto;
@@ -63,19 +105,6 @@ body {
 
 section {
   font-family: meloso;
-}
-
-a {
-  text-decoration: none;
-  color: #B2B2F9;;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-a:active {
-  color: #FF6767;
 }
 
 .top {
@@ -142,18 +171,17 @@ a:active {
   color: #B2B2F9;
   border-color: white;
 }
-
 .mid {
   border: 4px double ;
   border-radius: 10px;
   padding: 8px 8px;
   width: 200px;
-  text-align: center;
   background-color: rgba(0, 0, 0,0.7);
   color: #B2B2F9;
-  border-color: white;
+  border-color: rgb(255, 255, 255);
   margin-top: 20px;
 }
+
 
 #lol {
   width: 300px;
@@ -400,7 +428,6 @@ a:active {
   
   }
 
-  
 .ex {
   margin: 0 auto;
   text-align: center;
