@@ -23,6 +23,11 @@
 @keyframes boot3 {
   from { transform: translateY(200px);}
 }
+
+@keyframes fadeout {
+  
+}
+
 ::-webkit-scrollbar {
   color: #000000;
 }
@@ -132,10 +137,14 @@ section {
   color: white;
   display: none;
   width: 350px;
+  padding: 10px 10px;
+  border: #ff0000;
+  border-radius: 10px;
 }
 
 .close {
-  margin-left: 15px;
+  margin-left: 12px;
+  margin-right: 6px;
   color: white;
   font-weight: bold;
   float: right;
@@ -143,6 +152,8 @@ section {
   line-height: 20px;
   cursor: pointer;
   transition: 0.3s;
+  border: #ff0000;
+  border-radius: 10px;
 }
 
 .huge {
@@ -170,6 +181,43 @@ section {
   background-color: rgba(0, 0, 0,0.7);
   color: #B2B2F9;
   border-color: white;
+}
+
+.ni1 {
+  border: 4px double ;
+  border-radius: 10px;
+  padding: 5px 5px;
+  width: 200px;
+  background-color: rgba(0, 0, 0,0.7);
+  color: #B2B2F9;
+  border-color: white;
+  margin-top: 20px;
+}
+
+
+.tt {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  padding-left: 10px;
+  margin-bottom: 4.5px;
+}
+
+.tt::before {
+  content: attr(data-tooltip);
+  position: absolute;
+  background-color: #000000;
+  border-radius: 10px;
+  padding: 5px;
+  left: 100px;
+  width: 100px;
+  clip-path: circle(0rem at center);
+  overflow: hidden;
+  transition: ease-in-out 250ms;
+}
+
+.tt:hover::before {
+  clip-path: circle(20rem at center);
 }
 .mid {
   border: 4px double ;
@@ -228,6 +276,9 @@ section {
   margin-left: 70px;
 }
 
+#cock {
+  padding: 10px 10px;
+}
 #sus {
   font-size:6px;
 }
@@ -331,6 +382,8 @@ section {
 
 .warn {
   display: block;
+  margin-top: 20px;
+  transition: ease-out 500ms;
 }
 
 .haha {
@@ -355,6 +408,8 @@ section {
   display: block;
   float: none;
   margin: 0 auto;
+  width: 300px;
+  height: 400px;
 }
 
 #anime {
@@ -365,6 +420,8 @@ section {
 
 .warn {
   margin: 0 auto;
+  margin-top: 20px;
+  transition: ease-out 500ms;
 }
 
 }
@@ -390,6 +447,8 @@ section {
   
   .warn {
     display: block;
+    transition: ease-out 500ms;
+    margin-top: 20px;
   }
   
   .haha {
@@ -414,6 +473,8 @@ section {
     display: block;
     float: none;
     margin: 0 auto;
+    width: 300px;
+    height: 400px;
   }
   
   #anime {
@@ -421,10 +482,7 @@ section {
     float: none;
     margin: 0 auto;
   }
-  
-  .warn {
-    margin: 0 auto;
-  }
+
   
   }
 
