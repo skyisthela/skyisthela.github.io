@@ -154,7 +154,9 @@ section {
   transition: 0.3s;
   border: #ff0000;
   border-radius: 10px;
+
 }
+
 
 .huge {
   display: flex;
@@ -172,6 +174,14 @@ section {
   position: relative;
 }
 
+.ni:hover {
+  transform: scale(105%);
+}
+
+.ni1:hover {
+  transform: scale(105%);
+}
+
 .ni {
   border: 4px double ;
   border-radius: 10px;
@@ -181,6 +191,7 @@ section {
   background-color: rgba(0, 0, 0,0.7);
   color: #B2B2F9;
   border-color: white;
+  transition: ease 650ms;
 }
 
 .ni1 {
@@ -192,6 +203,7 @@ section {
   color: #B2B2F9;
   border-color: white;
   margin-top: 20px;
+  transition: ease 650ms;
 }
 
 
@@ -201,24 +213,48 @@ section {
   cursor: pointer;
   padding-left: 10px;
   margin-bottom: 4.5px;
+
 }
 
 .tt::before {
   content: attr(data-tooltip);
   position: absolute;
-  background-color: #000000;
   border-radius: 10px;
   padding: 5px;
   left: 100px;
   width: 100px;
   clip-path: circle(0rem at center);
   overflow: hidden;
-  transition: ease-in-out 250ms;
+  transition: 500ms;
+  background-color: #000000;
 }
 
 .tt:hover::before {
   clip-path: circle(20rem at center);
 }
+
+.thepeople{
+  display: inline-block;
+}
+
+.thepeople::after {
+  content: '';
+  width: 0px;
+  height: 1px;
+  display: block;
+  background:#dfa0c3;
+  transition: 300ms;
+}
+
+.thepeople:hover{
+  color: #d88b8b;
+  transition: ease-in-out 450ms;
+}
+
+.thepeople:hover::after{
+  width: 100%;
+}
+
 .mid {
   border: 4px double ;
   border-radius: 10px;
@@ -228,8 +264,12 @@ section {
   color: #B2B2F9;
   border-color: rgb(255, 255, 255);
   margin-top: 20px;
+  transition: ease 650ms;
 }
 
+.mid:hover{
+  transform: scale(110%);
+}
 
 #lol {
   width: 300px;
@@ -252,8 +292,12 @@ section {
   color: #B2B2F9;
   border-color: white;
   width: 850px;
+  transition: ease 650ms;
 }
 
+.purpose:hover{
+  transform: scale(105%);
+}
 #lulee {
   width: 300px;
   float: right;
@@ -296,6 +340,11 @@ section {
   border-color: white;
   margin-top: 20px;
   width: 850px;
+  transition: ease 650ms;
+}
+
+.haha:hover{
+  transform: scale(103%);
 }
 #lap {
   float: left;
