@@ -51,18 +51,22 @@
   bottom: 260px;
 }
 
+#ree ~  .box1 > .visible {
+  transition: ease-in-out 700ms 200ms;
+  transition-duration: 500ms;
+}
 #ree:hover ~  .box1 > .visible {
   opacity: 0;
   z-index: -1;
+}
+
+#ree ~ .box1 > #hidden {
   transition: ease-out 700ms 200ms;
   transition-duration: 500ms;
 }
-
 #ree:hover ~ .box1 > #hidden {
   opacity: 1;
   z-index: 0;
-  transition: ease-in-out 700ms 200ms;
-  transition-duration: 500ms;
 }
 
 .box1 a {
