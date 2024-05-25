@@ -175,11 +175,11 @@ section {
 }
 
 .ni:hover {
-  transform: scale(105%);
+  transform: scale(101%);
 }
 
 .ni1:hover {
-  transform: scale(105%);
+  transform: scale(101%);
 }
 
 .ni {
@@ -268,7 +268,7 @@ section {
 }
 
 .mid:hover{
-  transform: scale(110%);
+  transform: scale(101%);
 }
 
 #lol {
@@ -296,7 +296,7 @@ section {
 }
 
 .purpose:hover{
-  transform: scale(105%);
+  transform: scale(101%);
 }
 #lulee {
   width: 300px;
@@ -344,7 +344,7 @@ section {
 }
 
 .haha:hover{
-  transform: scale(103%);
+  transform: scale(101%);
 }
 #lap {
   float: left;
