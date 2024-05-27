@@ -8,6 +8,15 @@
   }
 }
 
+@font-face {
+  font-family:Secret;
+  src: url(fonts/Secretv2.ttf);
+}
+
+body {
+  font-family: Secret;
+  font-size: 18px;
+}
 ::-webkit-scrollbar {
   width: 1px;
   scrollbar-width: 10px;
@@ -39,9 +48,13 @@
   padding: 10px;
   z-index: 1;
   height: 460px;
-  font-family:Verdana, Geneva, Tahoma, sans-serif
 }
 
+#remember{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: xx-large;
+  font-weight: 400;
+}
 #hidden {
   z-index: -1;
   opacity: 0;
@@ -78,17 +91,6 @@
   display: flex;
 }
 
-.hea1 {
-  font-family:monospace;
-}
-
-.hee1 {
-  font-family: monospace;
-}
-
-.pp {
-  font-family:monospace;
-}
 
 #retard {
   float: right;
