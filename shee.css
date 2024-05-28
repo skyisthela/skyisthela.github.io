@@ -556,7 +556,9 @@ section {
   margin-top: 20px;
   transition: ease-out 500ms;
 }
-
+#nick::before {
+display:none;
+}
 }
 
 @media (max-width:700px) {
@@ -615,7 +617,9 @@ section {
     float: none;
     margin: 0 auto;
   }
-
+#nick::before {
+display:none;
+}
   
   }
 
