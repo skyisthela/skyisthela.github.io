@@ -13,7 +13,7 @@
   src: url(fonts/Secretv2.ttf);
 }
 
-body {
+#justtext {
   font-family: Secret;
   font-size: 18px;
 }
