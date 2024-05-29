@@ -302,6 +302,7 @@ hr {
   border-color: white;
   animation-name: boot1;
   animation-duration: 2s;
+  font-family: sans-serif;
 }
 
 .navbar ul {
