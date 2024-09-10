@@ -1,0 +1,13 @@
+@font-face {
+    font-family: heavy;
+    src: url(/fonts/HEAVYWEI.TTF);
+}
+body {
+    background-color: black;
+    color: red;
+    font-family: heavy;
+}
+
+.cock {
+    text-align: center;
+}
