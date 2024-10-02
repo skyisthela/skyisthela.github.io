@@ -62,13 +62,11 @@ a:visited {
 a:hover {
   color: rgb(222, 120, 120);
   background-color: transparent;
-  text-decoration: underline;
 }
 
 a:active {
   color: rgb(197, 84, 50);
   background-color: transparent;
-  text-decoration: underline;
 }
 #eiki {
   display: block;
@@ -120,9 +118,6 @@ section {
   transition: ease-in-out 630ms;
 }
 
-.top:hover{
-  transform: scale(101%);
-}
 
 
 #nick {
@@ -151,36 +146,6 @@ section {
   border-radius: 10px;
 }
 
-.tt {
-  position: relative;
-  display: inline-block;
-  cursor: pointer;
-  padding-left: 10px;
-  margin-bottom: 4.5px;
-}
-
-.tt::before {
-  content: attr(data-tooltip);
-  position: absolute;
-  border-radius: 10px;
-  padding: 5px;
-  left: 100px;
-  width: 100px;
-  clip-path: circle(0rem at center);
-  overflow: hidden;
-  transition:ease-in 600ms;
-  transition:ease-out 350ms;
-  background-color: #000000;
-}
-
-.tt:hover::before {
-  clip-path: circle(20rem at center);
-}
-
-.thepeople:hover::after{
-  width: 100%;
-}
-
 .mid:hover{
   transform: scale(101%);
 }
@@ -189,27 +154,7 @@ section {
   width: 300px;
 }
 
-.purpose {
-  border: 4px double;
-  border-radius: 10px;
-  padding: 14px 14px;
-  background-color: rgba(0, 0, 0,0.7);
-  color: #B2B2F9;
-  border-color: white;
-  transition: ease 650ms;
-  width: 1000px;
-  margin: 0 auto;
-  margin-top: 20px;
-}
 
-.purpose:hover{
-  transform: scale(101%);
-}
-
-.over {
-  display: inline-flex;
-  gap: 70px;
-}
 
 
 .rank {
@@ -236,19 +181,7 @@ section {
 #cock:hover{
   transform: scale(101%);
 }
-#sus {
-  font-size: 11px;
-}
 
-#Goals:link {
-  text-decoration: none;
-  color: rgb(173, 40, 173);
-}
-
-#goals {
-  text-decoration: none;
-  color: rgb(184, 52, 184);
-}
 
 #line {
   clear: left;
@@ -267,25 +200,55 @@ section {
   height: 120px;
 }
 
-.haha {
+
+
+.box {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-top: 8px;
+  gap: 12PX;
+}
+.box1 {
   border: 4px double ;
   border-radius: 10px;
   padding: 14px 14px;
   background-color: rgba(0, 0, 0,0.7);
   color: #B2B2F9;
   border-color: white;
-  margin-top: 20px;
-  transition: ease 650ms;
-  margin: 0 auto;
-  width: 1000PX;
-  margin-top: 20px;
-  animation-name: boot1;
+  transition: ease-in-out 650ms;
+  display: flex;
+  flex-direction: column;
+  width: 800px;
+  position: relative;
+  flex-wrap: nowrap;
+  animation-name: boot1a;
   animation-duration: 2s;
-  font-size: 20px;
-  clear: left;
-  overflow: hidden;
 }
 
+.box2 {
+  border: 4px double ;
+  border-radius: 10px;
+  padding: 14px 14px;
+  background-color: rgba(0, 0, 0,0.7);
+  color: #B2B2F9;
+  border-color: white;
+  transition: ease-in-out 650ms;
+  display: flex;
+  flex-direction: column;
+  width: 200PX;
+  position: relative;
+  animation-name: boot2;
+  animation-duration: 2s;
+}
+
+.box2:hover{
+  transform: scale(101%);
+}
+
+.box1:hover{
+  transform: scale(101%);
+}
 .asianp {
   font-size: 17px;
 }
@@ -293,6 +256,9 @@ section {
   text-align: left;
 }
 
+.test {
+
+}
 #foot {
   font-size: 10px;
   opacity: 50%;
@@ -301,11 +267,24 @@ section {
   font-size: 33px;
 }
 
+.hitagi {
+  position: fixed;
+  right: 0px;
+  bottom: 0px;
+}
+.sakuya {
+  position: fixed;
+  bottom: 0px;
+  width: 200px;
+}
+.fuck {
+  display: block;
+}
 #kita {
-  height: 182PX;
   float: right;
+  width: 190px;
+  margin: 10px;
   border-radius: 10px;
-  margin: 12px;
 }
 .haha:hover{
   transform: scale(101%);
@@ -325,30 +304,13 @@ section {
   border-radius: 4px;
 }
 
-.box2 {
-  border: 4px double ;
-  border-radius: 10px;
-  padding: 14px 14px;
-  background-color: rgba(0, 0, 0,0.7);
-  color: #B2B2F9;
-  border-color: white;
-  margin-top: 20px;
-  transition: ease 650ms;
-  margin: 0 auto;
-  width: 1000PX;
-  margin-top: 20px;
-  animation-name: boot1;
-  animation-duration: 2s;
-  font-size: 20px;
-  clear: left;
-  overflow: hidden;       
+.box22 {
   text-align: center;
 }
 
-.box2:hover{
-  transform: scale(101%);
+.twat {
+  text-decoration: none;
 }
-
 #later {
   padding-top: 10px;
 }
@@ -361,38 +323,15 @@ section {
 #anime:hover{
   transform: scale(101%);
 }
+ .under {
+  text-decoration: none;
+  transition: ease 650ms;
+  cursor: pointer;
+ }
 
-.test {
-  display: flex;
-  flex-direction: column;
+a:hover::before {
+  transform: scaleX(1);
 }
-
-.navbar {
-  padding: 1px 2px;
-  border: 4px double;
-  border-radius: 8px;
-  background-color: rgba(19, 19, 22, 0.7);
-  border-color: white;
-  font-size: 16px;
-  margin-bottom:20px;
-  margin-top: 20px ;
-  animation-name: boot3;
-  animation-duration: 2s;
-}
-
-
-.navbar ul {
-  list-style: none;
-  text-align: center;
-  margin: 0;
-  padding: 0;
-}
-
-.navbar li {
-  display: inline-block;
-  margin: 3px 13px;
-}
-
 .d-flex {
   display: flex;
 }
@@ -406,23 +345,26 @@ section {
 }
 
 @media (max-width:1110px) {
+
+.box {
+  display: block;
+}
   
-.purpose {
-  border: 4px double;
-  border-radius: 10px;
-  padding: 14px 14px;
-  background-color: rgba(0, 0, 0,0.7);
-  color: #B2B2F9;
-  border-color: white;
+.box1 {
+  display: flex;
+  flex-direction: column;
   width: 700px;
   margin: 0 auto;
 }
-  
-#lulee {
-  width: 700px;
-  float: right;
-  margin-right: 70px;
+
+.box2 {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 550px;
+  margin-top: 30px;
 }
+  
 .warn {
   display: block;
   margin-top: 20px;
@@ -447,14 +389,6 @@ section {
   display: block;
 }
 
-#lap {
-  display: block;
-  float: none;
-  margin: 0 auto;
-  width: 300px;
-  height: 400px;
-}
-
 #anime {
   display: block;
   float: none;
@@ -472,56 +406,54 @@ display:none;
 }
 
 @media (max-width:700px) {
-  
-  .purpose {
-    border: 4px double;
-    border-radius: 10px;
-    padding: 14px 14px;
-    background-color: rgba(0, 0, 0,0.7);
-    color: #B2B2F9;
-    border-color: white;
-    width: 350px;
-    margin: 0 auto;
+
+  .box {
+    display: block;
+    text-align: center;
   }
     
-  #lulee {
-    width: 350px;
-    float: right;
-    margin-right: 70px;
-  }
-  
-  .warn {
-    display: block;
-    transition: ease-out 500ms;
-    margin-top: 20px;
-  }
-  
-  .haha {
-    width: 350px;
-    margin: auto;
-    margin-top: 20px;
-  }
-  
-  .leleft {
-    display: none;
-  }
-  
-  .ach {
-    display: none;
-  }
-  
-  #lule {
-    display: block;
-  }
-  
-  #lap {
-    display: block;
-    float: none;
-    margin: 0 auto;
+  .box1 {
+    display: flex;
+    flex-direction: column;
     width: 300px;
-    height: 400px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  #kita {
+    float: none;
   }
   
+  .hitagi, .sakuya {
+    display: none;
+  }
+  .box2 {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 280px;
+    margin-top: 30px;
+    text-align: center;
+  }
+
+  #shijima {
+    float: none;
+    padding: 10px;
+  }
+
+  #eiki {
+    width: 240px;
+  }
+  .stupid {
+    width: 200px;
+  }
+
+.warn {
+  display: block;
+  transition: ease-out 500ms;
+  margin-top: 20px;
+}
+
   #anime {
     display: block;
     float: none;
