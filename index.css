@@ -209,6 +209,7 @@ section {
   margin-top: 8px;
   gap: 12PX;
 }
+
 .box1 {
   border: 4px double ;
   border-radius: 10px;
@@ -242,13 +243,113 @@ section {
   animation-duration: 2s;
 }
 
-.box2:hover{
-  transform: scale(101%);
+.section2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-top: 8px;
+  gap: 12PX;
+}
+
+.nigger {
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+  padding: 4px 4px;
+
+}
+
+.tomo {
+  text-align: left;
+  margin-left: 10px;
+}
+
+.tooltiptext {
+  visibility: hidden;
+  width: 160px;
+  background-color:rgba(0, 0, 0,0.8);
+  color: #f0b55c;
+  text-align: center;
+  padding: 6px;
+  border-radius: 6px;
+  border: solid 2px;
+  border-color: #ffffff;
+  /* Position the tooltip text */
+  position: absolute;
+  z-index: 2;
+  top: 17%;
+  left: 70%;
+  margin-left: -60px;
+  /* Fade in tooltip */
+  opacity: 0;
+  transition: opacity ease-in-out 500ms;
+}
+
+.nigger:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.nigger:hover {
+  text-decoration: underline;
+  color: rgb(176, 214, 246);
+  transition:ease-in-out 400ms;
+}
+
+.box3 {
+  border: 4px double ;
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: rgba(0, 0, 0,0.7);
+  color: #B2B2F9;
+  border-color: white;
+  transition: ease-in-out 650ms;
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  position: relative;
+  flex-wrap: nowrap;
+  animation-name: boot1a;
+  animation-duration: 2s;
+  margin-top: 10px;
+  z-index: 2;
+}
+
+.box4 {
+  border: 4px double ;
+  border-radius: 10px;
+  padding: 14px 14px;
+  background-color: rgba(0, 0, 0,0.7);
+  color: #B2B2F9;
+  border-color: white;
+  transition: ease-in-out 650ms;
+  display: flex;
+  flex-direction: column;
+  width: 800PX;
+  position: relative;
+  animation-name: boot2;
+  animation-duration: 2s;
+  margin-top: 10px;
+ 
 }
 
 .box1:hover{
   transform: scale(101%);
 }
+
+.box2:hover{
+  transform: scale(101%);
+}
+
+.box3:hover{
+  transform: scale(101%);
+}
+
+.box4:hover{
+  transform: scale(101%);
+}
+
 .asianp {
   font-size: 17px;
 }
