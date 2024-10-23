@@ -1,0 +1,150 @@
+@font-face {
+    font-family: azukiP;
+    src: url(/fonts/azukiP.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    background-color: #232136;
+    /* background-image: url(/__saigyou_ayakashi_touhou_and_1_more_drawn_by_xumi__6ca4673a0e7bd6e018bccb1a961aac5e.jpg);
+    background-repeat: no-repeat; */
+    background-size: cover;
+    backdrop-filter: blur(5px);
+}
+
+#oneko {
+    background-image: url(/oneko.js-main/oneko.gif);
+    position: absolute;
+    pointer-events: none;
+}
+.box {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 22px;
+    font-family: azukiP;
+}
+
+.box1 {
+    font-size: 20px;
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    width: 600px;
+    text-align: center;
+    color: #e0def4;
+    border-color: white;
+    transition: ease 200ms;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    clear: both;
+    padding: 20px;
+    margin: 20px;
+    line-height: 30px;
+    background-color: #232136;
+}
+
+.hi {
+    margin-top: 6px;
+    padding: 5px 3px 5px 3px;
+}
+#shijima {
+    width: 100px;
+    float: left;
+    border-radius: 2px;
+    padding-right: 9px;
+}
+
+#aboutme {
+    padding: 2px 0 8px 0;
+    font-size: 20px;
+}
+#aboutme span:hover {
+    text-decoration: underline;
+}
+.box2 {
+    font-size: 20px;
+    border: 1px solid;
+    display: flex;
+    width: 130px;
+    color: #e0def4;
+    border-color: white;
+    transition: ease 200ms;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding: 20px;
+    margin: 20px;
+    background-color: #232136;
+    height: 220px;
+    
+}
+
+.welcome, .welcome1 {
+    color: #f2e9e1;
+    transition: ease 200ms;
+    padding: 0px 8px 0px 8px;
+}
+
+.welcome1 {
+    margin-left: 26px;
+}
+.box1:hover >.welcome, .box2:hover >.welcomem, .box1:hover >.welcome1, .box2:hover >.welcome1{
+    color: #ea9a97;
+}
+
+#line1 {
+    width: 100%;
+    transition: ease 200ms;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.box1:hover > #line1 {
+    color:#ea9a97 ;
+}
+.box1:hover, .box2:hover{
+    border-color: #ea9a97;
+}
+
+#cave {
+    text-align: left;
+    margin-bottom: 8px;
+    padding-bottom: 8px;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.socials {
+    padding-left: 10px;
+}
+
+.sociallist {
+    list-style: none;
+    text-align: center;
+    line-height: 40px;
+    transition: ease-in-out 200ms;
+}
+
+.sociallist a {
+    color: #e0def4;
+    text-decoration: NONE;
+    transition: ease-in-out 300ms;
+}
+.sociallist a:hover {
+    text-decoration: underline;
+    color: #d7827e;
+}
+
+.frieren {
+    text-align: center;
+    width: 10px;
+    color: #f2e9e1;
+    position: relative;
+    left: 70rem;
+}
