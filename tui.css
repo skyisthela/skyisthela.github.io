@@ -88,6 +88,42 @@ a:visited {
     height: 220px;
 }
 
+.box3 {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    color: #e0def4;
+    transition: ease 200ms;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    clear: both;
+    padding: 6px;
+    margin: 7px;
+    margin-bottom: 50px;
+    line-height: 30px;
+    background-color: #232136;
+}
+
+.box4 {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    text-align: center;
+    color: #e0def4;
+    transition: ease 200ms;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    clear: both;
+    padding: 20px;
+    margin: 20px;
+    line-height: 30px;
+    background-color: #232136;
+}
+
 .welcome, .welcome1 {
     color: #f2e9e1;
     transition: ease 200ms;
