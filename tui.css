@@ -124,6 +124,39 @@ a:visited {
     background-color: #232136;
 }
 
+.box5 {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    width: 1200px;
+    text-align: center;
+    color: #e0def4;
+    transition: ease 200ms;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    clear: both;
+    padding: 20px;
+    margin: 20px;
+    line-height: 30px;
+    background-color: #232136;
+}
+
+#box6 {
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    width: 40px;
+    text-align: center;
+    color: #e0def4;
+    transition: ease 200ms;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    clear: both;
+    padding: 8px;
+    margin: 10px;
+    line-height: 30px;
+    background-color: #232136;
+}
 .welcome, .welcome1 {
     color: #f2e9e1;
     transition: ease 200ms;
