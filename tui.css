@@ -141,7 +141,7 @@ a:visited {
     background-color: #232136;
 }
 
-#box6 {
+.box6 {
     font-size: 15px;
     display: flex;
     justify-content: center;
@@ -152,8 +152,8 @@ a:visited {
     flex-direction: column;
     flex-wrap: nowrap;
     clear: both;
-    padding: 8px;
-    margin: 10px;
+    padding: 5px;
+    margin: 8px;
     line-height: 30px;
     background-color: #232136;
 }
@@ -219,6 +219,7 @@ a:visited {
   align-items: center;
   justify-content: center;
 }
+
 @media (max-width:700px) {
 .box {
     display: block;
@@ -234,8 +235,18 @@ a:visited {
     margin-top: 20px;
 }
 
+.box3, .box6 {
+    width: 77px;
+}
+
+.frieren {
+    display: none;
+}
+}
+
+@media (min-width:1000px) {
 .box3 {
-    width: 80px;
+    width: 200px;
 }
 
 .box5 {
@@ -247,10 +258,40 @@ a:visited {
     width: 70px;
     margin-bottom: 18px;
 }
+}
+
+/* @media (max-width:1000px) {
+.box {
+    display: block;
+}
+
+.box1, .box2, .box3, .box4, .box5, .box6 {
+    display: block;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.box2 {
+    margin-top: 20px;
+}
+
+.box3 {
+    width: 200px;
+}
+
+.box5 {
+    margin-top: 10px;
+}
+.box6 {
+    text-align: center;
+    padding: 8px;
+    width: 10px;
+    margin-bottom: 18px;
+}
 .frieren {
     display: none;
 }
-}
+} */
 
 
 
