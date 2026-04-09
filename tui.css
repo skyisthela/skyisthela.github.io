@@ -224,7 +224,7 @@ a:visited {
     display: block;
 }
 
-.box1, .box2 {
+.box1, .box2, .box3, .box4, .box5, .box6 {
     display: block;
     width: 200px;
     margin: 0 auto;
@@ -234,6 +234,19 @@ a:visited {
     margin-top: 20px;
 }
 
+.box3 {
+    width: 80px;
+}
+
+.box5 {
+    margin-top: 10px;
+}
+.box6 {
+    text-align: center;
+    padding: 8px;
+    width: 70px;
+    margin-bottom: 18px;
+}
 .frieren {
     display: none;
 }
