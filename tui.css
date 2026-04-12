@@ -92,7 +92,7 @@ a:visited {
     font-size: 20px;
     display: flex;
     justify-content: center;
-    width: 100px;
+    width: 80px;
     height: 30px;
     text-align: center;
     color: #e0def4;
@@ -235,7 +235,11 @@ a:visited {
     margin-top: 20px;
 }
 
-.box3, .box6 {
+.box3 {
+    width: 50px;
+}
+
+.box6 {
     width: 77px;
 }
 
@@ -248,9 +252,9 @@ a:visited {
 }
 }
 
-@media (min-width:1000px) {
+/* @media (min-width:1000px) {
 .box3 {
-    width: 230px;
+    width: 80px;
 }
 
 .box5 {
@@ -262,7 +266,7 @@ a:visited {
     width: 70px;
     margin-bottom: 18px;
 }
-}
+} */
 
 /* @media (max-width:1000px) {
 .box {
