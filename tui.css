@@ -25,28 +25,82 @@ body {
 .box {
     display: flex;
     justify-content: center;
-    flex-direction: row;
-    margin-top: 22px;
+    /* flex-direction: row; */
     font-family: azukiP;
+    gap: 25px;
 }
 
 .box1 {
     font-size: 20px;
     border: 1px solid;
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     width: 600px;
     text-align: center;
     color: #e0def4;
     border-color: white;
-    transition: ease 200ms;
+    transition: ease 250ms;
     flex-direction: column;
     flex-wrap: nowrap;
     clear: both;
     padding: 20px;
-    margin: 20px;
+    /* margin: 20px; */
     line-height: 30px;
     background-color: #232136;
+}
+
+#star {
+    width: 20px;
+}
+
+.box2 {
+    font-size: 20px;
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    color: #e0def4;
+    border-color: white;
+    transition: ease 250ms;
+    /* flex-direction: column;
+    flex-wrap: nowrap; */
+    padding: 5px 20px 20px 20px;
+    background-color: #232136;
+    height: 270px;
+    line-height: 30px;
+    margin-right: 22px;
+}
+
+#monkey {
+    width: 20px;
+}
+
+.socials {
+    /* padding-left: 10px; */
+    margin: 0 auto;
+}
+
+.sociallist {
+    list-style: none;
+    text-align: center;
+    line-height: 40px;
+    transition: ease-in-out 200ms;
+}
+
+.sociallist a {
+    color: #e0def4;
+    text-decoration: NONE;
+    transition: ease-in-out 300ms;
+}
+.sociallist a:hover {
+    text-decoration: underline;
+    color: #d7827e;
+}
+
+a {
+    color: none;
+      background-color: transparent;
+      text-decoration: none;
 }
 
 a:visited {
@@ -72,21 +126,7 @@ a:visited {
 #aboutme span:hover {
     text-decoration: underline;
 }
-.box2 {
-    font-size: 20px;
-    border: 1px solid;
-    display: flex;
-    width: 130px;
-    color: #e0def4;
-    border-color: white;
-    transition: ease 200ms;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    padding: 20px;
-    margin: 20px;
-    background-color: #232136;
-    height: 220px;
-}
+
 
 .box3 {
     font-size: 20px;
@@ -100,10 +140,10 @@ a:visited {
     flex-direction: column;
     flex-wrap: nowrap;
     clear: both;
-    padding: 6px;
+    padding: 15px;
     margin: 7px;
     margin-bottom: 50px;
-    line-height: 30px;
+    margin-top: 20px;
     background-color: #232136;
 }
 
@@ -164,7 +204,7 @@ a:visited {
 }
 
 .welcome1 {
-    margin-left: 26px;
+    margin: 0 auto;
 }
 .box1:hover >.welcome, .box2:hover >.welcomem, .box1:hover >.welcome1, .box2:hover >.welcome1{
     color: #ea9a97;
@@ -193,26 +233,7 @@ a:visited {
     padding-top: 0;
 }
 
-.socials {
-    padding-left: 10px;
-}
 
-.sociallist {
-    list-style: none;
-    text-align: center;
-    line-height: 40px;
-    transition: ease-in-out 200ms;
-}
-
-.sociallist a {
-    color: #e0def4;
-    text-decoration: NONE;
-    transition: ease-in-out 300ms;
-}
-.sociallist a:hover {
-    text-decoration: underline;
-    color: #d7827e;
-}
 
 .frieren {
      display: flex;
