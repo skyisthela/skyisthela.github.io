@@ -227,7 +227,7 @@ a:visited {
 
 .box1, .box2, .box3, .box4, .box5, .box6 {
     display: block;
-    width: 200px;
+    width: 242px;
     margin: 0 auto;
 }
 
@@ -239,6 +239,10 @@ a:visited {
     width: 77px;
 }
 
+.box6 {
+    margin-bottom: 24px;
+}
+
 .frieren {
     display: none;
 }
@@ -246,7 +250,7 @@ a:visited {
 
 @media (min-width:1000px) {
 .box3 {
-    width: 200px;
+    width: 230px;
 }
 
 .box5 {
