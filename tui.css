@@ -28,6 +28,7 @@ body {
     /* flex-direction: row; */
     font-family: azukiP;
     gap: 25px;
+    margin-top: 30px;
 }
 
 .box1 {
