@@ -1,1 +1,1 @@
-I beat my wife and kids
+I beat my wife and kids.
