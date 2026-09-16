@@ -18,6 +18,15 @@
     src: url(/fonts/swirls.ttf);
 }
 
+@font-face {
+    font-family: handwriting;
+    src: url(/fonts/handwriting.ttf);
+}
+
+@font-face {
+    font-family: fallbackc;
+    src: url(/fonts/fallbackc.ttf);
+}
 *{
     margin: 0;
     padding: 0;
