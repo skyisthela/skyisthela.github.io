@@ -272,7 +272,34 @@ align-items: center;
 
 .fren {
     text-decoration: underline;
+    transition: ease-in-out 200ms;
 }
+
+.visible {
+    z-index: 1;
+    transition: ease-in-out 200ms;
+}
+
+
+.invisible {
+    z-index: -1;
+    transition: ease-in-out 200ms;
+}
+
+/* .saya {
+    transition: ease-in-out 200ms;
+}
+.saya:hover ~ .visible {
+    display: none;
+    z-index: -1;
+    transition: opacity 1s;
+}
+
+.saya:hover ~ .invisible {
+    display: block;
+    z-index: 1;
+    transition: opacity 1s;
+} */
 @media only screen and (max-width:700px) {
 .box {
     display: block;
